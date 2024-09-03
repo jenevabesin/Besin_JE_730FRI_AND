@@ -1,5 +1,5 @@
-CalculatorApp
-Description
+
+
 CalculatorApp is a simple and intuitive calculator application that supports basic arithmetic operations, 
 including addition, subtraction, multiplication, and division. Designed for ease of use, it offers a user-friendly interface for performing calculations.
 
