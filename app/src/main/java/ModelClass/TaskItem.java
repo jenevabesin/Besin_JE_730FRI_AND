@@ -15,12 +15,26 @@ public class TaskItem {
         return taskName;
     }
 
+    public void setTaskName(String taskName)
+    {
+        this.taskName =taskName;
+    }
+
     public boolean isChecked() {
         return isChecked;
+    }
+
+    public void setChecked(boolean checked)
+    {
+        isChecked = checked;
     }
 
     public int getImageResId() {
         return imageResId;
     }
 
+    public void setImageResId(int imageResId)
+    {
+        this.imageResId = imageResId;
+    }
 }

@@ -40,6 +40,11 @@ public class TaskListAdapter extends ArrayAdapter<TaskItem> {
             taskText.setText(task.getTaskName());
             taskImage.setImageResource(task.getImageResId());
         }
+        // Handle checkbox state change
+        checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            task.setChecked(isChecked);
+        });
+
         // Return the completed view to render on screen
         return convertView;
     }
