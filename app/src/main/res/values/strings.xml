@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingredients">Ingredients:\n- Spaghetti\n- Eggs\n- Parmesan cheese\n- Pancetta\n- Black pepper\n\nInstructions:\n1. Cook the spaghetti.\n2. Prepare the sauce with eggs and cheese.\n3. Combine with pancetta.\n4. Serve hot!</string>
+    <string name="recipe">Today\'s Featured Recipe: Spaghetti Carbonara</string>
+    <string name="first_menu">First Menu</string>
+    <string name="second_menu">Second Menu</string>
+    <string name="third_menu">Third Menu</string>
+</resources>

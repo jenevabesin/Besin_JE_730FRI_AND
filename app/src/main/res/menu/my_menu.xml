@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_first"
+        android:title="@string/first_menu"
+        android:icon="@drawable/ic_first_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_second"
+        android:title="@string/second_menu"
+        android:icon="@drawable/ic_second_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_third"
+        android:title="@string/third_menu"
+        android:icon="@drawable/ic_third_icon"
+        app:showAsAction="ifRoom" />
+</menu>
