@@ -1,0 +1,21 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Container for the headline list fragment -->
+    <FrameLayout
+        android:id="@+id/headline_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <!-- Container for the content fragment -->
+    <FrameLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"/>
+</LinearLayout>
